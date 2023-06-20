@@ -1,0 +1,74 @@
+$primary: #f6c35a;
+$secondary: #c64a43;
+$tertiary: #354435;
+
+
+html {
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+body {
+    scroll-snap-align: start;
+}
+
+section {
+    scroll-snap-align: start;
+    min-height: 100vh;
+}
+
+.panel {
+    scroll-snap-align: end;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'IM Fell DW Pica';
+    font-size: 4em;
+    color: $tertiary;
+}
+
+h2 {
+    font-family: 'IM Fell English SC';
+    font-size: 1.5em;
+    color: $tertiary;
+}
+
+h4 {
+    font-family: 'Inter';
+}
+
+nav {
+    transition: background-color 0.5s linear;
+    background-color: #3894be;
+}
+// #3894be
+
+p {
+    font-family: 'Inter';
+    font-size: 1em;
+    color: $tertiary;
+}
+
+p a {
+    color: $tertiary;
+    font-family: 'Inter';
+    font-size: 1em;
+}
+
+.scrolled {
+    transition: background-color 0.5s linear;
+    background-color: rgba($color: $secondary, $alpha: 1.0); 
+    
+}
+
+.tree {
+    height: 1.5em;
+    width: 6em;
+    fill: $tertiary;
+}
+
+.scrolled_icon {
+    fill: $tertiary;
+}
